@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {max-width: 100%}
+
+html, body {
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+body {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch4-katie-03.jpg?bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=1200&s=2d5e9cab416511030057e7a4bc64a36e");
+  background-position: center center;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.pfp {
+  border-radius: 50%;
+  height: 20vw;
+  width: 20vw;
+  left: 40vw;
+  top: 6vw;
+  position: fixed;
+}
+
+.name {
+  top: 26vw;
+  left: 27vw;
+  position: absolute;
+  font-size: 7vw;
+  color: WHITE;
+  max-width: 100%;
+}
+
+.addtoserver {
+  border: none;
+  top: 35.5vw;
+  left: 26vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  font-size: 6vw;
+  background-color: transparent;
+  color: WHITE;
+  background-color: #A002D3;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.addtoserverdark {
+  border: none;
+  top: 36.4vw;
+  left: 26vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  font-size: 6vw;
+  background-color: transparent;
+  color: WHITE;
+  background-color: #54006F;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.topbar {
+  background-color: #4D4D4D;
+  width: 100%;
+  height: 4vw;
+  position: fixed;
+  background-size: 100vw;
+}
+
+.title {
+  color: WHITE;
+  padding-left: 4vw;
+  top: 0.6vw;
+  position: fixed;
+  font-size: 2vw;
+}
+
+.topbar button {
+  border: none;
+  padding: 0.68vw 0.6vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  font-size: 2.33vw;
+  background-color: transparent;
+  color: WHITE;
+  cursor: pointer;
+}
+
+.topbar button:hover {
+  background-color: #A002D3;
+  color: WHITE
+}
+
+.home {
+  left: 20%;
+}
+
+.motomusicc {
+  left: 28.14%;
+}
+
+.support {
+  left: 44.5%;
+}
+
+.footer {
+  background-color: #4D4D4D;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4vw;
+}
+
+.footer img {
+  left: 33vw;
+}
+
+.footer text {
+  color: WHITE;
+  left: 37vw;
+  bottom: 1vw;
+  position: fixed;
+  font-size: 2vw;
+}
+
+.icon {
+  width: 3.8vw;
+  height: 3.8vw;
+  position: fixed;
+}
